@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Default Main Template -->
+	<definition name="mainTemplate" template="/WEB-INF/templates/main.jsp">
+		<put-attribute name="title" value="FinGenius SMS Application" type="string" />
+		<put-attribute name="header" value="/WEB-INF/templates/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/templates/footer.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/templates/menu.jsp" />
+		<put-attribute name="body" value="/WEB-INF/templates/blank.jsp" />
+	</definition>
+
+                <!-- Pages Templates -->
+ 
+	<definition name="home" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/user/home.jsp" />
+	</definition>
+    <definition name="about" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/about.jsp" />
+    </definition>
+    <definition name="sms" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/user/sms.jsp" />
+    </definition>
+    <definition name="numbers" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/user/numbers.jsp" />
+    </definition>
+    <definition name="messages" extends="mainTemplate">
+         <put-attribute name="body" value="/WEB-INF/views/user/messages.jsp" />
+    </definition>
+    <definition name="messagesreply" extends="mainTemplate">
+         <put-attribute name="body" value="/WEB-INF/views/user/messagesreply.jsp" />
+    </definition>
+    <definition name="createuser" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/admin/createuser.jsp" />
+    </definition>
+    <definition name="edituser" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/admin/edituser.jsp" />
+    </definition>
+    <definition name="listusers" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/admin/listusers.jsp" />
+    </definition>
+    <definition name="deleteuser" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/admin/deleteuser.jsp" />
+    </definition>
+    <definition name="loginhome"  extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/admin/loginhome.jsp" />
+    </definition>
+    <definition name="login" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+    </definition>
+    <definition name="loginerror" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/loginerror.jsp" />
+    </definition>
+    <definition name="logout" extends="mainTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/logout.jsp" />
+    </definition>
+
+</tiles-definitions>
