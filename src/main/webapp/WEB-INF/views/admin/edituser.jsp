@@ -46,10 +46,10 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <div class="btn-group-justified" align="right">
-                                    <div>
-                                        <button   id="btnSave" class="btn-default" name="_eventId_save" ><fmt:message key="button.save"/></button>
-                                        <input   type="button" value="<fmt:message key="button.cancel"/>" onclick="window.location.href='${pageContext.request.contextPath}/listusers.html';" />
+                                <div class="form-buttons">
+                                    <div class="button">
+                                        <input type="submit" id="save" name="_eventId_save" value="<fmt:message key="button.save"/>"/>&#160;
+                                        <input  type="button" value="<fmt:message key="button.cancel"/>" onclick="window.location.href='${pageContext.request.contextPath}/listusers.html';" />&#160;
                                     </div>
                                 </div>
                             </td>
