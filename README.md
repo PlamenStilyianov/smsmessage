@@ -15,7 +15,8 @@
 
 *The are two Roles Admin and User. The Admin role creates/edits/deletes users' details username and password. The USER role can only access the application to receive and send SMS messages. The ADMIN role is setup and validated at properties file, while the USER role is store and validated at a database level.*
 #
-*Default Login (current setup);*
+*Default Login (current setup):*
+#
 * ADMIN - admin/admin
 * USER - fingenius/welcome
 
