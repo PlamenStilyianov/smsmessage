@@ -12,7 +12,7 @@
 
 ###** RESTful Web Services - Implemented by using Spring 4 REST & JSON**###
 
-*There is a situation when an USER is typing a responding message and at the same time a new message arrives so the User needs and a notification. The client - server interaction has been implemented by using Spring 4 RESTfull with JSON on the server side and AngularJS on client side.*
+*There is a situation when an USER is typing a responding message and at the same time a new message arrives so the User needs a notification. The client - server interaction has been implemented by using Spring 4 RESTfull with JSON on the server side and AngularJS on client side.*
 
 
 ###** User Interface Design Patterns - implemented by using Spring 4 MVC & Tiles **###
