@@ -3,7 +3,7 @@
 *Stand-alone Spring Security MVC internationalization application with Twilio Java API that allows you to send/receive SMS messages and store the messages into a database.*
 #
 
-*TWilio properties are in the main resource folder*
+*Twilio properties are in the main resource folder*
 
 #
 
