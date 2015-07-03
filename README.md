@@ -33,18 +33,18 @@
 
 ###** Configuration (Maven/Git/OpenSSH must be installed and configured)**###
 
-*git clone git@bitbucket.org:orajava/smsmessage.git
-*cd smsmessage
-*mvn clean
-*mvn install
+* git clone git@bitbucket.org:orajava/smsmessage.git
+* cd smsmessage
+* mvn clean
+* mvn install
 
 ###** Dependencies **###
 
-*Maven
-*Git
-*OppenSSH
-*Tomcat
-*GlassFish
+* Maven
+* Git
+* OppenSSH
+* Tomcat
+* GlassFish
 
 ###** Database configuration - Oracle 12c **###
 
@@ -56,7 +56,8 @@
 
 ###** Deployment instructions - look at the profiles at POM.xml **###
 
-*There are three profiles; *
+*There are three profiles:*
+
 #
 <!--    ========    JBoss AS 7 Deployment   =========  -->
             <!--    ====    run mvn:deploy as: jboss-as:deploy -Denv=jboss ====-->
