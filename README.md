@@ -1,6 +1,15 @@
 #**Twilio SMS application**#
 
 *Stand-alone Spring Security MVC internationalization application with Twilio Java API that allows you to send/receive SMS messages and store the messages into a database.*
+#
+
+*TWilio properties are in the main resource folder*
+
+#
+
+*To interact with the application you need to send a text message to +441633901152 and then login as an USER role (fingenius/welcome) @ http://95.149.51.171:8080/smsmessage/*
+#
+*WARNING!!! as the IP address is dynamic it could often be changed.*
 
 ###**Security - Implemented by using Spring 3 Security Module.**###
 
