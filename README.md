@@ -25,7 +25,7 @@
 
 ###** Continuous Integration with Build and Test Automation - Jenkins, Maven and Tomcat (It presumes that Open SSH, GIT, Bitbucket, Github,  Maven, Jenkins, Tomcat and corresponding plugins have been installed & configured)**###
 
-*The application Maven pom file has implemented with 3 profiles for GlassFish 4, JBoss 7 and Tomcat 7/8 application servers. This allows when a developer commit and push any changes to the repository an PRE event trigger has been fired for testing and automation build after successful built a Post event trigger fires to deploy the snapshot to the corresponding (GlassFish/JBoss/Tomcat). The all dependence library and repository have been configured and mapped within the pom , which will be downloaded during the build. The project does no contain any jar libraries.*
+*The application Maven pom file has been implemented with 3 profiles for GlassFish 4, JBoss 7 and Tomcat 7/8 application servers. This allows when a developer commit and push any changes to the repository an PRE event trigger has been fired for testing and automation build after successful built a Post event trigger fires to deploy the snapshot to the corresponding (GlassFish/JBoss/Tomcat). The all dependence library and repository have been configured and mapped within the pom , which will be downloaded during the build. The project does no contain any jar libraries.*
 
 ###** Summary of set up **###
 
