@@ -6,6 +6,11 @@
 
     <display-name>simple-form</display-name>
 
+    <!-- Session Configuration -->
+    <session-config>
+        <session-timeout>60</session-timeout>
+    </session-config>
+
     <!-- Spring-Encoding -->
     <filter>
         <filter-name>encoding-filter</filter-name>
